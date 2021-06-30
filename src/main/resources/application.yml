@@ -1,0 +1,18 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    password: app@123
+    username: app_user
+    #建好自己的数据库后可以把表名连到自己的库
+    url: jdbc:mysql://172.16.207.106:3306/tms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&nullCatalogMeansCurrent=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis-plus:
+  mapperLocations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+
+
