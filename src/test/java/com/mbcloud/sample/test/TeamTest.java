@@ -1,3 +1,5 @@
+package com.mbcloud.sample.test;
+
 import com.mbcloud.sample.Application;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
