@@ -2,7 +2,7 @@ package com.mbcloud.sample.util;
 
 public class ResultCode {
 
-    private String code;
+    private final String code;
 
     private String msg;
 
